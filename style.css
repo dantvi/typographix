@@ -29,6 +29,20 @@ main {
     font-weight: 500px;
     font-style: italic;
     text-align: center;
+    animation: focus-in-contract 3s linear;
+}
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1;
+    }
 }
 
 .social-media-icons {
@@ -39,6 +53,7 @@ main {
 }
 
 .social-media-icons i {
+    animation: focus-in-contract 3s linear;
     transition: transform 0.5s ease;
     cursor: pointer;
 }
