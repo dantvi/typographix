@@ -6,6 +6,8 @@
     --background: rgb(255,255,255);
 }
 
+/* General */
+
 html {
     box-sizing: border-box;
 }
@@ -22,6 +24,16 @@ body {
 main {
     position: relative;
 }
+
+a {
+    text-decoration: none;
+    color: var(--on-background);
+}
+
+    a:hover {
+        padding-bottom: 5px;
+        border-bottom: 5px solid var(--on-background);
+    }
 
 /* Sections */
 section {
@@ -105,6 +117,17 @@ h2 {
     .small-image:not(:first-child) {
         margin-left: 20px;
     }
+
+/* Section 4 */
+.blog-container {
+    margin: 0 auto;
+    width: 50ch;
+}
+
+.blog-item {
+    margin-bottom: 50px;
+}
+
 
 /* Section 5 */
 /* Wave */
