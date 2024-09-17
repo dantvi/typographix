@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chonburi&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/* Colors */
+:root {
+    --on-background: rgb(66, 66, 66);
+    --background: rgb(255,255,255);
+}
+
 html {
     box-sizing: border-box;
 }
@@ -9,18 +15,28 @@ body {
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
     overflow-x: hidden;
+    color: var(--on-background);
+    background-color: var(--background);
 }
 
 main {
     position: relative;
 }
 
+/* Sections */
+section {
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 /* Header */
 .header {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 70%);
     width: 100vw;
 }
 
