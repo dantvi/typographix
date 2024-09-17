@@ -78,6 +78,34 @@ h2 {
     transform: scale(1.1);
 }
 
+/* Section 2 */
+.main-image {
+    height: 50%;
+    width: auto;
+    position: relative;
+    top: -25%;
+    padding: 20px;
+    border: 10px solid var(--on-background);
+}
+
+/* Section 3 */
+.image-container {
+    position: relative;
+    top: -25%;
+    height: 50vh;
+}
+
+.small-image {
+    height: 50%;
+    width: auto;
+    padding: 20px;
+    border: 10px solid var(--on-background);
+}
+
+    .small-image:not(:first-child) {
+        margin-left: 20px;
+    }
+
 /* Section 5 */
 /* Wave */
 .wave {
