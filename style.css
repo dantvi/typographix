@@ -133,7 +133,6 @@ h2 {
 /* Wave */
 .wave {
     width: 100%;
-    position: relative;
 }
 
     .wave > svg {
