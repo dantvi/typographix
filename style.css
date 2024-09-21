@@ -131,7 +131,7 @@ h2 {
     align-items: center;
     z-index: 100;
     position: fixed;
-    top: 30px;
+    top: 15px;
     right: 25px;
     cursor: pointer;
 }
